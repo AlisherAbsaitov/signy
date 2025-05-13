@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 export default function App() {
   return (
     <React.Fragment>
+      <div className="bg-yellow-400">Salom</div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
