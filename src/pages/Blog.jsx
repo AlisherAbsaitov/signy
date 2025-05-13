@@ -2,6 +2,6 @@ import React from 'react'
 // Usmon
 export default function Blog() {
   return (
-    <div className='text-red'>Blog</div>
+    <div className='text-rose-500'>Blog</div>
   )
 }
