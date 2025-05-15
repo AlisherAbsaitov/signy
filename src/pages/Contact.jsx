@@ -19,7 +19,7 @@ export default function Contact() {
         const res = await axios.post("https://67f9ff6b094de2fe6ea2dc6e.mockapi.io/users", payload) 
     }
   return (
-    <div className='container mx-auto flex justify-between items-center'>
+    <div className='container mx-auto flex justify-between items-center px-[100px]'>
       <div>
         <h1 className='text-[40px] mb-[20px]'>Наши контакты</h1>
         <p className='text-[18px] w-[490px] mb-[10px  ]'>Мы всегда рады ответить на ваши вопросы и развивать эффективное сотрудничество по всем вопросам, связанным с электронным документооборотом.</p>
