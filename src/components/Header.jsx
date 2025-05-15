@@ -7,16 +7,12 @@ function Header() {
   return (
     <>
       <div className='bg-[#DEEEFC]'>
-        <div className="container flex mx-auto gap-x-[100px]">
+        <div className="container flex mx-auto gap-x-[150px]">
           <Link to={"/"}>
             <img className='w-[150px]' src={image} alt="" />
           </Link>
           <div className='flex items-center gap-x-[50px]'>
-            <div className="flex items-center">
-              <p>0 800 750 643</p>
-              <HiChevronDown />
-            </div>
-
+            
             <div className="flex items-center">
               <h1>ПРО НАС</h1>
               <HiChevronDown />
