@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import { Route, Routes } from "react-router-dom";
-import Blog from "./pages/Blog";
+import Blog from "./pages/Blog/Blog";
 import Blogpost from "./pages/Blogpost";
 import Video from "./pages/Video";
 import Contact from "./pages/Contact";
