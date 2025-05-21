@@ -1,0 +1,17 @@
+[
+    {
+       "product_img": "/public/Headphone.png",
+       "product_data": "05.03.2020",
+       "product_desc": "Burn Calories Quicker in 30 Min."
+    },
+    {
+        "product_img": "/public/Mackbook.png",
+        "product_data": "05.03.2020",
+        "product_desc": "Burn Calories Quicker in 30 Min."
+     },
+     {
+        "product_img": "/public/Worker.png",
+        "product_data": "05.03.2020",
+        "product_desc": "Burn Calories Quicker in 30 Min."
+     }
+]
