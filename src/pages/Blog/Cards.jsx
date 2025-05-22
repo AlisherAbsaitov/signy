@@ -7,7 +7,7 @@ export default function Cards() {
   const [data, setData] = useState(productJson);
   console.log(data);
   return (
-    <section className="flex items-center justify-around">
+    <section className="flex items-center justify-around p-[10px]">
       {data.map((value, index) => {
         return (
           <div className="p-[20px]">
