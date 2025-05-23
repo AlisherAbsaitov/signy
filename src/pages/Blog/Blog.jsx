@@ -2,6 +2,7 @@ import React from "react";
 import Glasses from "/public/Glasses.png";
 import Cards from "./Cards";
 import Verify from "./Verify";
+import Documentation from "./Documentation";
 // Usmon
 export default function Blog() {
   return (
@@ -47,6 +48,9 @@ export default function Blog() {
       </div>
       <div>
         <Verify/>
+      </div>
+      <div>
+        <Documentation/>
       </div>
     </section>
   );
