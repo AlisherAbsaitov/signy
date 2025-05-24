@@ -1,3 +1,9 @@
 {
-   "ЦЕНЫ":"PRICE"
+   "ПРО НАС":"About",
+   "ЦЕНЫ":"PRICE",
+   "Блог":"Blog",
+   "Блог пост":"Blog post",
+   "Видео инструкции":"Video instructions",
+   "КОНТАКТЫ":"contact",
+   "Вход":"Entrance"
 }
