@@ -7,9 +7,7 @@ export default function FAQ() {
       <h1 className="text-3xl font-bold mb-6">Популярные вопросы и ответы на них</h1>
 
       <div className="mb-8">
-        <h2 className="text-lg font-bold mb-2">Популярные вопросы -</h2>
-
-        <p className=" font-semibold mb-2 cursor-pointer"> <span className='text-blue-500'>+</span> Почему круглую пиццу ставят в квадратную коробку, а нарезают треугольниками?</p>
+        <h2 className="text-lg font-bold mb-2">Популярные вопросы <span className='text-blue-500'>-</span></h2><p className=" font-semibold mb-2 cursor-pointer"> <span className='text-blue-500'>+</span> Почему круглую пиццу ставят в квадратную коробку, а нарезают треугольниками?</p>
 
         <p className="text-black font-semibold cursor-pointer"><span className='text-blue-500'>-</span> Почему после ремонта дорога опять проваливается?</p>
         <p className="text-sm text-gray-700 mb-2 ml-4">
