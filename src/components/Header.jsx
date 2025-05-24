@@ -17,23 +17,23 @@ function Header() {
           </Link>
           <div className='flex items-center gap-x-[50px]'>
             <div className="flex items-center">
-              <h1>ПРО НАС</h1>
+              <h1>{t("ПРО НАС")}</h1>
               <HiChevronDown />
             </div>
             <div>
               <p>{t("ЦЕНЫ")}</p>
             </div>
             <div>
-              <Link to={"/blog"}>Блог</Link>
+              <Link to={"/blog"}>{t("Блог")}</Link>
             </div>
             <div>
-              <Link to={"/blogpost"}>Блог пост</Link>
+              <Link to={"/blogpost"}>{t("Блог пост")}</Link>
             </div>
             <div>
-              <Link to={"/video"}>Видео инструкции</Link>
+              <Link to={"/video"}>{t("Видео инструкции")}</Link>
             </div>
             <div>
-              <Link to={"/contact"}>КОНТАКТЫ</Link>
+              <Link to={"/contact"}>{t("КОНТАКТЫ")}</Link>
             </div>
             <div>
               <Link to={"/faq"}>Faq</Link>

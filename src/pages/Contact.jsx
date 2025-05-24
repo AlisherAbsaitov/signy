@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <div className='container mx-auto justify-between px-[100px]'>
       <div>
-        <h1 className='text-[40px] mb-[20px]'>Наши контакты</h1>
+        <h1 className='text-[40px] mb-[20px]'>{t("Bizning kontaktlarimiz")}</h1>
         <div className='flex items-center'>
           <div>
             <p className='text-[18px] w-[490px] mb-[10px  ]'>Мы всегда рады ответить на ваши вопросы и развивать эффективное сотрудничество по всем вопросам, связанным с электронным документооборотом.</p>
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <img src={image2} alt="" />
+            <iframe src="https://yandex.uz/map-widget/v1/?ll=69.247936%2C41.328718&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNDUzOTc0MzI1Eh1Pyrt6YmVraXN0b24sIFRvc2hrZW50LCBHYW5nYSIKDfF-ikIVnFAlQg%2C%2C&z=13.67" width="560" height="250" ></iframe>
           </div>
         </div>
         <div>
