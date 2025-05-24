@@ -8,7 +8,7 @@ import Live from "./Live";
 import Packages from "./Packages";
 import Question from "./Question";
 
-// Umar
+// Umar: home page'ni qilib bo'ldim
 export default function Home() {
   return (
     <>
