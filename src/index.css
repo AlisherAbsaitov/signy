@@ -1,1 +1,49 @@
-@import "tailwindcss"
+@import 'tailwindcss';
+
+@layer utilities {
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+@theme {
+  --color-1064E5: #1064e5;
+  --color-061224: #061224;
+  --color-01B754: #01b754;
+  --color-B70101: #b70101;
+  --color-E2EDFB: #e2edfb;
+  --color-EFF6FD: #eff6fd;
+  --color-FFFFFF: #ffffff;
+  --color-0046B0: #0046b0;
+  --color-595A5B: #595a5b;
+  --color-000000: #000000;
+  --color-061224E5: #061224e5;
+  --color-00000050: #00000050;
+  --color-D8F1F0: #d8f1f0;
+  --color-DEEEFC: #deeefc;
+  --color-EBF5F6: #ebf5f6;
+  --color-E5E5E5: #e5e5e5;
+
+  --background-image-hero-bg: url('/public/hero bg 1.webp');
+  --background-image-hero-bg-md: url('/public/hero bg md 1.webp');
+  --background-image-hero-bg-lg: url('/public/hero bg lg 1.webp');
+  --background-image-live-bg: url('/public/live.webp');
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, transparent, #ffffff);
+}
+
+.red-placeholder::placeholder {
+  color: #b70101;
+}
+
+.green-placeholder::placeholder {
+  color: #01b754;
+}
