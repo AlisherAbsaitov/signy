@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import { Route, Routes } from "react-router-dom";
-import Blog from "./pages/Blog";
+import Blog from "./pages/Blog/Blog";
 import Blogpost from "./pages/Blogpost";
 import Video from "./pages/Video";
 import Contact from "./pages/Contact";
@@ -11,7 +11,7 @@ import Home from "./pages/Home";
 export default function App() {
   return (
     <React.Fragment>
-      <div className="bg-yellow-400">Salom</div>
+      
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
