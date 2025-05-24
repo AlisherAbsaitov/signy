@@ -7,6 +7,7 @@ import Video from "./pages/Video";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import { Home } from "./pages";
+import FAQ from "./pages/FAQ";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/blogpost" element={<Blogpost />} />
           <Route path="/video" element={<Video />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </main>
       <Footer />
